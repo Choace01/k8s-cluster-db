@@ -1,13 +1,13 @@
 {
   "tableData": [
     {
+      "id": "1",
       "name": "cluster-alpha",
       "namespace": "default",
       "version": "v1.21.1",
       "machineCount": "3",
       "workersCount": "5",
-      "provider": "GCP",
-      "id": "1"
+      "provider": "GCP"
     },
     {
       "id": "2",
