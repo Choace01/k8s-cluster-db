@@ -1,0 +1,58 @@
+{
+  "tableData": [
+    {
+      "name": "cluster-alpha",
+      "namespace": "default",
+      "version": "v1.21.1",
+      "machineCount": "3",
+      "workersCount": "5",
+      "provider": "GCP",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "cluster-beta",
+      "namespace": "production",
+      "version": "v1.19.3",
+      "machineCount": "5",
+      "workersCount": "10",
+      "provider": "Azure"
+    },
+    {
+      "id": "3",
+      "name": "cluster-gamma",
+      "namespace": "development",
+      "version": "v1.20.4",
+      "machineCount": "2",
+      "workersCount": "4",
+      "provider": "GCP"
+    },
+    {
+      "id": "4",
+      "name": "cluster-delta",
+      "namespace": "testing",
+      "version": "v1.18.8",
+      "machineCount": "4",
+      "workersCount": "8",
+      "provider": "DigitalOcean"
+    },
+    {
+      "id": "5",
+      "name": "cluster-epsilon",
+      "namespace": "staging",
+      "version": "v1.22.2",
+      "machineCount": "3",
+      "workersCount": "6",
+      "provider": "AWS"
+    },
+    {
+      "id": "6",
+      "name": "cluster-zeta",
+      "namespace": "default",
+      "version": "v1.21.5",
+      "machineCount": "5",
+      "workersCount": "10",
+      "provider": "Azure"
+    }
+  ]
+}
