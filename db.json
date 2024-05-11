@@ -1,58 +1,64 @@
 {
   "tableData": [
     {
-      "name": "cluster-alpha",
-      "namespace": "default",
-      "version": "v1.21.1",
-      "machineCount": "3",
-      "workersCount": "5",
-      "provider": "GCP",
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "name": "cluster-beta",
-      "namespace": "production",
-      "version": "v1.19.3",
-      "machineCount": "5",
-      "workersCount": "10",
-      "provider": "Azure"
-    },
-    {
-      "id": "3",
-      "name": "cluster-gamma",
+      "id": 1,
+      "name": "dev-cluster",
       "namespace": "development",
-      "version": "v1.20.4",
-      "machineCount": "2",
-      "workersCount": "4",
-      "provider": "GCP"
+      "version": "v1.23.4",
+      "machineCount": "5",
+      "workersCount": "15",
+      "provider": "AWS",
+      "image": "ubuntu-20.04"
     },
     {
-      "id": "4",
-      "name": "cluster-delta",
+      "id": 2,
+      "name": "prod-cluster",
+      "namespace": "production",
+      "version": "v1.21.1",
+      "machineCount": "10",
+      "workersCount": "40",
+      "provider": "Azure",
+      "image": "centos-8"
+    },
+    {
+      "id": 3,
+      "name": "test-cluster",
       "namespace": "testing",
-      "version": "v1.18.8",
-      "machineCount": "4",
-      "workersCount": "8",
-      "provider": "DigitalOcean"
+      "version": "v1.19.7",
+      "machineCount": "3",
+      "workersCount": "9",
+      "provider": "GCP",
+      "image": "debian-10"
     },
     {
-      "id": "5",
-      "name": "cluster-epsilon",
+      "id": 4,
+      "name": "stage-cluster",
       "namespace": "staging",
       "version": "v1.22.2",
-      "machineCount": "3",
-      "workersCount": "6",
-      "provider": "AWS"
+      "machineCount": "8",
+      "workersCount": "32",
+      "provider": "AWS",
+      "image": "rhel-8"
     },
     {
-      "id": "6",
-      "name": "cluster-zeta",
-      "namespace": "default",
-      "version": "v1.21.5",
-      "machineCount": "5",
-      "workersCount": "10",
-      "provider": "Azure"
+      "id": 5,
+      "name": "research-cluster",
+      "namespace": "research",
+      "version": "v1.20.5",
+      "machineCount": "4",
+      "workersCount": "16",
+      "provider": "DigitalOcean",
+      "image": "sles-15"
+    },
+    {
+      "id": 6,
+      "name": "qa-cluster",
+      "namespace": "quality-assurance",
+      "version": "v1.24.3",
+      "machineCount": "7",
+      "workersCount": "28",
+      "provider": "Alibaba Cloud",
+      "image": "fedora-34"
     }
   ]
 }
